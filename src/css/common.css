@@ -1,0 +1,72 @@
+@import "flatpickr/dist/flatpickr.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ==== color-switche ==== */
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 100px;
+}
+
+.btn {
+
+  width: 100px;
+
+  margin-left: 10px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background-color: white;
+
+  border-color:transparent;
+  border-radius: 4px;
+}
+.btn:hover, .btn:focus {
+background-color: #212121;
+color: white;
+}
+
+/* ==== timer ==== */
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.field:last-child {
+  margin-right: 0;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
